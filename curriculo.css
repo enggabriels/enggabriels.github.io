@@ -1,0 +1,110 @@
+body {
+    background-color: lightblue;
+}
+
+h3{
+    font-family: Andale Mono, monospace;
+}
+
+.principal{
+    background-color: white;
+    margin: 0 100px 0 100px;
+    height: 0%;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+.lado_esquerdo{
+    background-color: #355586;
+}
+
+.lado_direito{
+    margin-left: 50px;
+    
+    font-family: Rockwell, monospace;
+
+}
+
+.foto_perfil{
+    margin: 50px 20% 50px 20%;
+    border-radius: 50%;
+}
+
+.titulo_contato{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.material-icons.icone_branco{
+    color: white;
+}
+
+.bloco_informacao{
+display: flex;
+flex-direction: row;
+margin-left: 25px;
+margin-bottom: 16px;
+width: 100%;
+align-items: center;
+}
+
+.descricao{
+    font-size: 16px;
+    color: white;
+    font-weight: 600;
+    font-family: Andale Mono, monospace;
+    margin-left: 15px;
+}
+
+.Nome{
+    font-size: 38px;
+    font-weight: bold;
+    }
+
+.Resumo_Formacao_Exp{
+    text-transform: uppercase;
+    font-weight: bold;
+    
+}
+
+
+.bloco_infor{
+    margin-right: 50px;
+    text-align: justify;
+    
+}
+
+.Empresa{
+    font-weight: bold;
+    
+   
+}
+
+.data{
+    margin-right: 50px;
+   
+}
+
+.material-icons.icone_preto{
+    margin-left: 350px;
+}
+
+.material-icons.icone_pretos{
+    margin-left: 250px;
+}
+
+.bloco_data{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 6px;
+width: 100%;
+align-items: center;
+
+}
+
+.outside{
+    list-style-position: outside;
+}
+
